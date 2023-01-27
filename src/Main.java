@@ -53,7 +53,7 @@ public class Main {
 
         NumW = NumW + 94;
         HoursGlobal = NumW * HoursW;
-        System.out.println("Если в компании работает " + NumW + " человек, то всего "+ HoursGlobal +" часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + NumW + " человек, тo всего "+ HoursGlobal +" часов работы может быть поделено между сотрудниками");
 
     }
 }
