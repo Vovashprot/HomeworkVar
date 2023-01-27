@@ -45,5 +45,15 @@ public class Main {
         System.out.println(DiffM);
         var DiffO = BoxerW2 % BoxerW1;
         System.out.println(DiffO);
+
+        var HoursGlobal = 640;
+        var HoursW = 8;
+        var NumW = HoursGlobal / HoursW;
+        System.out.println("Всего работников в компании - " + NumW + " человек.");
+
+        NumW = NumW + 94;
+        HoursGlobal = NumW * HoursW;
+        System.out.println("Если в компании работает " + NumW + " человек, то всего "+ HoursGlobal +" часов работы может быть поделено между сотрудниками");
+
     }
 }
