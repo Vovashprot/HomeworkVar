@@ -41,6 +41,9 @@ public class Main {
         var BoxerW2 = 82.7;
         System.out.println("разница весов " + (BoxerW2 - BoxerW1) );
 
-
+        var DiffM = BoxerW2 - BoxerW1;
+        System.out.println(DiffM);
+        var DiffO = BoxerW2 % BoxerW1;
+        System.out.println(DiffO);
     }
 }
